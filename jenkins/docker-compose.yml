@@ -1,9 +1,6 @@
-version: "3"
-
+version: '3.3'
 services:
-  jennkins:
+  jenkins:
     image: jenkins:latest
     ports:
-      - "8080:8080"
-      - "50000:50000"
-
+      - 127.0.0.1:8282:8080
