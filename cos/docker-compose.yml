@@ -99,6 +99,7 @@ services:
   mongodb:
     image: docker.io/bitnami/mongodb:4.4
     hostname: mongodb
+    container_name: mongodb
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
       - MONGODB_DATABASE=dev
